@@ -12,5 +12,6 @@ for (let value of "abkabcpabc".matchAll(re2)){
 }
 
 const re3 = /^\([0-9]{3}\) [0-9]{3} [0-9]{4}$/
-
 console.log(re3.test("(818) 370 4531"))
+const re4 = /^([0-9]|1[0-2]):[0-5][0-9] (AM|PM)$/
+console.log(re4.test("12:00 AM"))
